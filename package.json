@@ -1,0 +1,40 @@
+{
+  "name": "webpack-for-react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server",
+    "clean": "rimraf dist",
+    "build": "NODE_ENV=production && yarn clean && webpack -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "flow": "^0.2.3",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^4.3.1",
+    "node-sass": "^4.9.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-loadable": "^5.4.0",
+    "react-router-dom": "^4.3.1",
+    "rimraf": "^2.6.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "2.6.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "2.7.1"
+  }
+}
